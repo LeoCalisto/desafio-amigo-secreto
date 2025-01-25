@@ -8,6 +8,15 @@ function adicionarAmigo() {
     }else{
         nomesArmazenados.push(nomeDitado.value);
         nomeDitado.value = '';
+        atualizarListaAmigos();
     }
     console.log(nomesArmazenados);
+}
+
+function atualizarListaAmigos(){
+    let listaAmigos = document.getElementById('listaAmigos');
+    listaAmigos.innerHTML = '';1
+    for (const nome of nomesArmazenados) {
+        listaAmigos.innerHTML += `<li>${nome}</li>`
+    }
 }

@@ -29,7 +29,7 @@
 
 ## Layout ou Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação.
+> [Link do deploy da aplicação.](https://leocalisto.github.io/desafio-amigo-secreto/)
 
 ... 
 
